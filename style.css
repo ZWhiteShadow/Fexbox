@@ -1,0 +1,36 @@
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.header {
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(green, tan);
+    border: black .3vw solid;
+    color: black;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+html {
+    background-image: radial-gradient(tan, green);
+    height: 100%;
+}
+
+.headerbox{
+    font-size: 4vw;
+    display: flex;
+}
+
+
+
